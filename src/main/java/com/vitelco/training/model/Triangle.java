@@ -1,5 +1,8 @@
 package com.vitelco.training.model;
 
 public class Triangle {
-    Point point;
+
+    //class member
+    //property, field, attribute
+    String fistName;
 }
