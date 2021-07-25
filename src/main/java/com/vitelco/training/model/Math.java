@@ -14,6 +14,7 @@ public class Math {
     }
 
     public void showResult(){
-        System.out.println(this.timeThree(8));
+
+        Logger.info(String.valueOf(this.timeThree(8)));
     }
 }

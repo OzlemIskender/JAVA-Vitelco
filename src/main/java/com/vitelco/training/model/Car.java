@@ -8,9 +8,12 @@ public class Car {
     public String model;
 
     public void Drive(int speed){
-        System.out.println(this.toString() + " is running in "
-                + speed + " speed limit");
+        Logger.info(this.toString() + " is running in "
+                + speed + " speed limir. ");
+
+
     }
+
 
 
     @Override

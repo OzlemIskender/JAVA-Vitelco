@@ -1,12 +1,14 @@
 package com.vitelco.training.ozlem;
 
 import com.vitelco.training.model.Car;
-
+import com.vitelco.training.model.Logger;
 
 
 public class Sample {
 
     public void myMethod(){
+
+        Logger.info("my program running");
 
         Car pourche =new Car();
         pourche.color = "red";

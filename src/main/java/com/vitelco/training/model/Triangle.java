@@ -4,5 +4,5 @@ public class Triangle {
 
     //class member
     //property, field, attribute
-    String fistName;
+    String firstName;
 }
